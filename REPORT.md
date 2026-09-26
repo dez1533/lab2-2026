@@ -24,9 +24,9 @@
 
 * Рекурсивний випадок — це частина рекурсивної функції, у якій алгоритм викликає сам себе зі зміненими параметрами. Його головна мета — розбити складну задачу на простіші підзадачі, поступово наближаючись до базового випадку, який зупинить ланцюг викликів і запобіжить нескінченному виконанню циклу.
 
-mid = (start + end) // 2
-left_max = find_max_kills_recursive(matches, start, mid)
-right_max = find_max_kills_recursive(matches, mid + 1, end)
+* mid = (start + end) // 2
+* left_max = find_max_kills_recursive(matches, start, mid)
+* right_max = find_max_kills_recursive(matches, mid + 1, end)
 
 ---
 
